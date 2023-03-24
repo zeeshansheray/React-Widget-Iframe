@@ -1,0 +1,139 @@
+@import "./helpers/color-scheme.scss";
+@import "./helpers/box-shadow.scss";
+@import "./helpers/font-size.scss";
+@import "./helpers/spacing.scss";
+@import "./helpers/width.scss";
+@import "./helpers/height.scss";
+@import "./helpers/opacity.scss";
+@import "./helpers/border.scss";
+@import "./helpers/z-index.scss";
+@import "./helpers/flex-layout.scss";
+@import "./helpers/text-style.scss";
+@import "./helpers/padding.scss";
+@import "./helpers/absolute-spacing.scss";
+@import "./helpers/margin.scss";
+@import "./helpers/line-height.scss";
+
+
+@import './widgetMainPage.scss';
+
+
+p, h1, h2, h3, h4, h5{
+    margin: 0px !important;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+
+.cp{
+    cursor: pointer;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-none{
+    display: none !important;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justify-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-flex-start{
+    justify-content: flex-start !important;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: flex-start;
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+    transition: ease-in-out all 0.3s;
+}
+
+.rotate-270{
+    transform: rotate(270deg);
+    transition: ease-in-out all 0.3s;
+}
+
+.middle{
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    flex-direction : column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.object-fit-cover{
+    object-fit: cover;
+}
+
+.error {
+    color: color(danger30) !important;
+    text-align: left;
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.disabled{
+    pointer-events: none !important;
+    opacity: 0.5 !important;
+}
+  
+
+.align-items-flex-start{
+    align-items: flex-start;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.hideText{
+    display: none;
+}
+
+.word-break-break-all{
+    word-break: break-all;
+}
+
+.ellipses{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}

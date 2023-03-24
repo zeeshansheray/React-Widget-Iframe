@@ -1,0 +1,147 @@
+#widget{
+    height          : fit-content;
+    width           : fit-content;
+    border-radius   : 50%;
+    position        : fixed;
+    bottom          : 50px;
+    right           : 10px;
+
+    #mainPage{
+        width        : 400px;
+        height       : 600px;
+        position     : fixed;
+        bottom       : 0px;
+        right        : 80px;
+        overflow-y   : auto;
+        border-radius: 4px;
+        max-height   : 600px;
+        transition   : max-height .2s ease;
+        box-shadow   : rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        .header{
+            padding                : 24px 24px 32px;
+            width                  : 100%;
+            height                 : 140px;
+            padding                : 24px 24px 32px;
+            border-top-left-radius : 4px;
+            border-top-right-radius: 4px;
+        }
+
+        .bottomSection{
+            padding: 24px;
+            height: fit-content;
+            background-color: white;
+        }
+
+        .topSection1, .topSection2{
+            background: #F5F5F5;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+            padding: 20px;
+        }
+
+        .topSection1{
+            margin-top: -50px;
+            margin-bottom: 24px;
+        }
+
+        .signInButton{
+            width           : 100%;
+            padding         : 16px;
+            border          : 0px;
+            outline         : 0px;
+            border-radius   : 4px;
+            color           : white;
+        }
+
+        .signUpButton{
+            background-color: lightgray;
+            width           : 100%;
+            padding         : 16px;
+            border          : 0px;
+            outline         : 0px;
+            border-radius   : 4px;
+            color           : black;
+        }
+
+        .singleAction{
+            padding: 20px 0px;
+        }
+
+        .earningWays, .redeeminWays{
+            max-height    : 0px;
+            overflow      : hidden;
+            box-sizing    : border-box;
+            padding-bottom: 0px!important;
+            transition    : ease-in-out all 0.3s;
+        }
+
+        .expand{
+            max-height: 200px;
+            height    : fit-content;
+            padding   : 16px 4px;
+            width     : 100%;
+            overflow-y: auto;
+            transition: ease-in-out all 0.3s;
+        }
+
+        .singleEarnWay:last-child , .singleFlow:last-child{
+            margin-bottom: 0px !important;
+        }
+
+        .label{
+            font-family   : 'Inter';
+            font-style    : normal;
+            font-weight   : 500;
+            font-size     : 14px;
+            line-height   : 20px;
+            letter-spacing: 0.1px;
+            color         : #4B4E5B;
+            margin        : 0px 0px 5px 0px;
+        }
+
+        .inputField{
+            width        : 160px;
+            height       : 56px;
+            background   : rgba(255, 255, 255, 0.01);
+            border       : 1px solid #D6DAE9;
+            border-radius: 6px;
+            outline      : 0px;
+            font-family  : 'Inter';
+            font-style   : normal;
+            font-weight  : 400;
+            font-size    : 16px;
+            line-height  : 24px;
+            Padding      : 8px 16px 8px 16px;
+            box-sizing   : border-box;
+        }
+
+
+
+
+
+
+        #dashboardPage{
+            overflow-y: auto;
+            .topSection2{
+                height: 100%;
+            }
+
+        #dealDetailScreen{
+            .closeIcon{
+                position: absolute;
+                top     : 0px;
+                right   : 0px;
+            }
+        }
+        
+
+        }
+
+
+
+    }
+
+
+}
+

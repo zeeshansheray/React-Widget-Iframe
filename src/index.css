@@ -1,0 +1,14 @@
+.widget{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
